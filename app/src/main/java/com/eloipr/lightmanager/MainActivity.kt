@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 
-abstract class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     private val TAG = MainActivity::class.java.simpleName
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,11 +24,6 @@ abstract class MainActivity : AppCompatActivity() {
     }
 
     private fun sendPostRequest(method: String) {
-        val service = LedService()
-        val apiController = APIController(service)
 
-        apiController.post(method) { response ->
-            Log.d(TAG, response)
-        }
     }
 }
