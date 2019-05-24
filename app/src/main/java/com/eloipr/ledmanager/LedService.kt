@@ -1,4 +1,4 @@
-package com.eloipr.lightmanager
+package com.eloipr.ledmanager
 
 import retrofit2.Call
 import retrofit2.Retrofit

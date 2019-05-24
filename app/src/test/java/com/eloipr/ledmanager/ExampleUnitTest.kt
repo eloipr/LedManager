@@ -1,4 +1,4 @@
-package com.eloipr.lightmanager
+package com.eloipr.ledmanager
 
 import org.junit.Test
 

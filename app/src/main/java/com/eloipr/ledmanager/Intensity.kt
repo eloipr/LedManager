@@ -1,3 +1,3 @@
-package com.eloipr.lightmanager
+package com.eloipr.ledmanager
 
 data class Intensity(val intensity : Int)

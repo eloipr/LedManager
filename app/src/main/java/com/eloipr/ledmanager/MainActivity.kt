@@ -1,4 +1,4 @@
-package com.eloipr.lightmanager
+package com.eloipr.ledmanager
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

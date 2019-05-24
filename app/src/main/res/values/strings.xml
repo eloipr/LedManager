@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LightManager</string>
+    <string name="app_name">LedManager</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
 </resources>

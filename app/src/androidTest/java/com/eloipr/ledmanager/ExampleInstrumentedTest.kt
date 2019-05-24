@@ -1,4 +1,4 @@
-package com.eloipr.lightmanager
+package com.eloipr.ledmanager
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.eloipr.lightmanager", appContext.packageName)
+        assertEquals("com.eloipr.ledmanager", appContext.packageName)
     }
 }
